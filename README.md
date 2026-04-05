@@ -12,7 +12,9 @@ I specialize in bridging biological research and software engineering—focusing
   > A demonstration of a fine-tuned language model for classifying patient symptoms, served via a FastAPI/Redis-backed REST API.
 ---
 ### Current Research
-My current research at CMU focuses on applying modern state-space architectures to model time-series physiological data(ECG). This project is private for now, but happy to discuss about the concept!
+At CMU's Safe AI Lab, I am developing a **Mamba-based Foundation Model** for clinical time-series data. By leveraging Self-Supervised Learning (SSL), the model is designed to capture long-range dependencies in physiological signals (ECG) with linear complexity. 
+
+**Key Achievement:** Successfully benchmarked robust **length generalization** for a model trained on 10-second segments. It demonstrated zero-shot robustness on shortened 2-second inputs (AUROC drop <1%) and seamlessly scaled to unseen 30-minute external records, achieving **>3x higher inference throughput** compared to baseline architectures.
 
 ---
 
