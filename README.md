@@ -1,18 +1,21 @@
 ## Hi, I'm Sukwon (David) Kim 👋
 
-I'm a Computational Biology Master's student at Carnegie Mellon University (graduating May 2026) with 3+ years of industry experience as a bioinformatics engineer. My long-term vision is to advance **personalized, preventive medicine** through predictive, _in silico_ modeling and scalable AI.
+I recently graduated with a Master's degree in Computational Biology from Carnegie Mellon University (Class of 2026), bringing 3+ years of industry experience as a bioinformatics engineer. My long-term vision is to advance **personalized, preventive medicine** through predictive, _in silico_ modeling and scalable AI.
 
-I specialize in bridging biological research and software engineering—focusing on architecting high-throughput data pipelines, training specialized AI models, and deploying production-grade MLOps infrastructure for complex biological datasets.
+I specialize in bridging biological research and software engineering—focusing on architecting data pipelines, training specialized AI models, and deploying production-grade MLOps infrastructure for complex biological datasets.
 
 ### Featured Project
-* **[BindingAL (Work in Progress)](https://github.com/cmu-compbio-al/bindingal)**
+* **[PanicGuard](https://github.com/panic-guard/panicguard)**
+  > An iOS and watchOS application designed for on-device panic attack monitoring, utilizing agentic workflows and physiological features.
+
+* **[BindingAL](https://github.com/cmu-compbio-al/bindingal)**
   > A distributed active learning framework for antigen-antibody binding prediction using Protein Language Models (PLMs).
 
 * **[LLM symptom classifier API](https://github.com/sukwondkim/llm-symptom-classifier)**
   > A demonstration of a fine-tuned language model for classifying patient symptoms, served via a FastAPI/Redis-backed REST API.
 ---
-### Current Research
-At CMU's Safe AI Lab, I am developing a **Mamba-based Foundation Model** for clinical time-series data. By leveraging Self-Supervised Learning (SSL), the model is designed to capture long-range dependencies in physiological signals (ECG) with linear complexity. 
+### Graduate Research
+At CMU's Safe AI Lab, I developed a **Mamba-based Foundation Model** for clinical time-series data. By leveraging Self-Supervised Learning (SSL), the model is designed to capture long-range dependencies in physiological signals (ECG) with linear complexity. 
 
 **Key Achievement:** Successfully benchmarked robust **length generalization** for a model trained on 10-second segments. It demonstrated zero-shot robustness on shortened 2-second inputs (AUROC drop <1%) and seamlessly scaled to unseen 30-minute external records, achieving **>3x higher inference throughput** compared to baseline architectures.
 
